@@ -1,0 +1,33 @@
+.todo-notes__item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    border: 2px solid #1564c2;
+    border-radius: 5px;
+}
+
+.todo-notes__item label {
+    cursor: pointer;
+    flex: 1 1 auto;
+}
+
+.todo-notes__item .done {
+    text-decoration: line-through;
+}
+
+.todo-notes__item input {
+    margin-right: 5px;
+}
+
+.todo-notes__item button {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #ce2121;
+}

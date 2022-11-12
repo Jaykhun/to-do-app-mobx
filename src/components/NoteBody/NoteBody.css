@@ -1,0 +1,14 @@
+.todo-notes {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.message {
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #ce2121;
+}

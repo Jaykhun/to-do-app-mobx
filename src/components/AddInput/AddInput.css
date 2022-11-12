@@ -1,0 +1,29 @@
+.todo__add-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo__add-input input {
+    flex: 1 1 auto;
+    padding: 10px;
+    outline: none;
+    border: 2px solid #1564c2;
+    border-radius: 5px;
+    color: #1564c2;
+    font-weight: bold;
+}
+
+.todo__add-input input::placeholder {
+    color: #1564c2;
+}
+
+.todo__add-input button {
+    padding: 10px;
+    border: 2px solid #1564c2;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+    background-color: #1564c2;
+    color: #fff;
+}
